@@ -12,7 +12,7 @@
 ```
 
 *by mynameismaurizio*  
-*for the community*
+*for Portainer CE*
 
 ## Overview
 This script allows you to **update your Portainer CE (Community Edition)** installation to the latest or specific version. The script is designed for **ease of use**, **Docker integration**, and **community contribution**.
