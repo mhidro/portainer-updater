@@ -120,6 +120,7 @@ Contributions are welcome! To contribute:
 ## Credits
 
 This script was created by mynameismaurizio and is shared with the community for free.
+This script is based on a script I found on [Diego Betto's page](https://diegobetto.com/portainer-update). Liked the idea, so I rewrote the code and turned it into this repo.
 
 ## Support
 
