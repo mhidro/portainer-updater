@@ -12,7 +12,7 @@
 #                                    Portainer Updater                                       #
 #                                    by mynameismaurizio                                     #
 #                                    for the community                                       #
-#                                                                                            #
+#                                    forked 06-02-2025                                       #
 ##############################################################################################
 
 
@@ -42,10 +42,7 @@ exit 1
 fi
 # Start the new Portainer container
 echo -e "${YELLOW}Starting Portainer version $target_version...${NC}"
-if sudo docker run --name portainer --restart=unless-stopped -d \
--p 8000:8000 -p 9000:9000 -p 9443:9443 \
--v /var/run/docker.sock:/var/run/docker.sock \
--v portainer_data:/data portainer/portainer-ce:$target_version; then
+if  docker compose up -d; then
 echo -e "${GREEN}Portainer has been updated to version $target_version!${NC}"
 else
 echo -e "${RED}Error starting the new Portainer container. Please check Docker logs for details.${NC}"
