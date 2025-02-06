@@ -1,5 +1,5 @@
 # Portainer Updater
-
+Forked 06-02-2025
 ```
  _____           _        _                   _    _           _       _            
 |  __ \         | |      (_)                 | |  | |         | |     | |           
@@ -43,7 +43,7 @@ If you want to clone the repository to get the script:
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/portainer-updater.git
+git clone https://github.com/mhidro/portainer-updater.git
 cd portainer-updater
 ```
 
